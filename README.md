@@ -1,2 +1,7 @@
 # OpenCL_GPU_FPGA_test1
-OpenCLでGPUとFPGAを両方使うプログラム（かなり面倒臭い）
+OpenCLによるマルチデバイス(GPU+FPGA)実行のテスト
+
+FPGAカーネルの処理内容はmatmul。  
+GPUカーネルの処理内容はただの代入のみ。FPGA版からの書き直しが面倒なので、シングルワークアイテムになっている。
+
+あくまでGPUとFPGAの両方をOpenCLのみで動かすことできるプログラムを書くことが目的。
